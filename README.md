@@ -1,4 +1,12 @@
-# babel-plugin-tailwind-components and styled-components issue
+# babel-plugin-tailwind-components and styled-components
+
+## Updated
+
+Some version incompatibilities between Tailwind and the `tailwind.macro` lib
+were causing the issue. This repo could now serve as an example of a minimal
+Webpack + Styled Components setup with this plugin.
+
+## The Old Issue
 
 I haven't been able to get the [babel-plugin-tailwind-components](https://npmjs.com/package/babel-plugin-tailwind-components)
 to work in any project that I've tried so far (Create React App, Next.js, or a
